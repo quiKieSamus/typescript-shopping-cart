@@ -1,4 +1,4 @@
-import { makeFakeProducts } from "../helpers/create-fake-products";
-import IInventory from "../interfaces/Inventory/Inventory";
+import { makeFakeProducts } from "../helpers/create-fake-products.js";
+import IInventory from "../interfaces/Inventory/Inventory.js";
 
-export const fakeProducts:Array<IInventory> = makeFakeProducts(10);
+export const fakeProducts:Array<IInventory> = makeFakeProducts(1000);
